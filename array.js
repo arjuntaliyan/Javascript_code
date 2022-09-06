@@ -2,19 +2,23 @@ const num = [1,2,3,4,5,6,7,8,9];
 console.log(num)
 
 // PUSH - push element in last of a array
-// num.push(10)
-// console.log(num[num.length-1])
+
+num.push(10)
+console.log(num[num.length-1])
 console.log(num.push(10))
 
 // UNSHIFT - unshift is used to push element in first of a array
-// num.unshift(0)
+
+num.unshift(0)
 console.log(num.unshift(0))
   
 // POP - last value get out 
 // not giving any input in pop
+
 console.log(num.pop())
 
 // SHIFT - remove first value of a array
+
 console.log(num.shift())
 
 // Changing index number of any value
@@ -25,19 +29,24 @@ console.log(num)
 const names = ['Arjun', 'Chiku', 'Avam', "Shourya", 'Aryan', 'Ritesh', 'Deepak', 'Prakshit']
 
 // INDEX-OF
-// names.indexOf('Chiku');
+
+names.indexOf('Chiku');
 console.log(names.indexOf('Chiku'));
 
 // LASTINDEX-OF
-// names.lastIndexOf('Ritesh');
+names.lastIndexOf('Ritesh');
 console.log(names.lastIndexOf('Ritesh'));
 
 // INCLUDE - searching in a array
-// names.include('Avam');
+
+names.include('Avam');
+
 // INCLUDE were only used in premitive datatypes not work in refrence datatypes.
+
 console.log(names.includes('Avam'));
 
 // FIND - searching work in refrences datatypes also.
+
 let channels = [{
     name: 'Apna College',
     subscriber: 10000
@@ -75,19 +84,19 @@ console.log(names3.slice(3,5))
 // FOR LOOP
 
 for (let i =0; i<names.length; i++){
-    // console.log(names[i])
+     console.log(names[i])
 }
 
 // FOR OF LOOP
 
 for (let name of names) {
-    // console.log(name)
+     console.log(name)
 }
 
 // FOR EACH LOOP
 
 names.forEach(function(name, index){
-   // console.log(name, index);
+    console.log(name, index);
 })
 
 // JOIN
@@ -111,4 +120,5 @@ console.log(cities.filter(city => {
 }))
 
 // MAP
+
 cities.map
