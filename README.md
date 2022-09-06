@@ -11,11 +11,13 @@ With basic understanding all objects code present here;
 # Project-folder
 
 // Project 1
-Switch ON/OFF Bulb
+
+**Switch ON/OFF Bulb**
 
 // Project 2
 
-**CRUD APP** (Create, Read, Update, Delete)
+**CRUD APP** 
+(Create, Read, Update, Delete)
 Performing an app on add courses in list.
 [Project Link](https://addstudymaterial.000webhostapp.com)
 
