@@ -14,5 +14,10 @@ Project-folder
 Switch ON/OFF Bulb
 
 // Project 2
-Add courses in list, remove or edit using button tags
+
+CRUD APP (Create, Read, Update, Delete)
+Performing an app on add courses in list.
+
+
+
 
