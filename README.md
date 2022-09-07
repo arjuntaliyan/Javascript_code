@@ -1,8 +1,6 @@
-**Projects and JS Basics**
-
 # **Javascript_code**
 
-## All basics concept with example are present here;
+**All basics concept with example && Projects are present here;**
 
 console.log("JAVASCRIPT IS AN OBJECT");
 
