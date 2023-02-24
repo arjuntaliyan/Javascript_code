@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Music Player</title>
+    <link rel="stylesheet" href="music.css">
+    <script src="https://kit.fontawesome.com/e06400e57f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="music-player">
+            <nav>
+                <div class="circle">
+                    <i class="fa-solid fa-angle-left"></i>
+                </div>
+                <div class="circle">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav>
+            <img src="despacito-artwork.jpg" class="song-img">
+            <h1>Despacito</h1>
+            <p>Lusis Fonsi Ft.Daddy Yankee</p>
+
+            <audio autoplay="off" id="song">
+                <source src="Despacito_320(PagalWorld).mp3" type="audio/mpeg"> 
+            </audio>
+            <input type="range" value="0" id="progress">
+            <div class="controls">
+                <div><i class="fa-solid fa-backward"></i></div>
+                <div onclick="playPause()"><i class="fa-solid fa-play" id="ctrlIcon"></i></div>
+                <div><i class="fa-solid fa-forward"></i></div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="music.js"></script>
+
+</body>
+</html>
