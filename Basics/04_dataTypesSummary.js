@@ -33,3 +33,29 @@
  }
 
  console.log(typeof myFunction);
+
+ // **************************** Memory *******************************
+
+ //                            2 types
+ //                           /       \
+ //             Stack (Premitive)     Heap(Non-premitive)
+
+ let myYoutubeName = "Arjun Taliyan"
+
+ let anotherName = myYoutubeName
+ anotherName = "ChaiAurCode"
+
+ console.log(myYoutubeName);
+ console.log(anotherName);
+
+ let userOne = {
+    email: "user@gmail.com",
+    upi: " user@ybl",
+ }
+
+ let userTwo = userOne
+
+ userTwo.email = "arjun@google.com"
+
+ console.log(userOne.email);
+ console.log(userTwo.email);
