@@ -46,10 +46,38 @@ const users = [
 
 users[1].email
 
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser)); // access all value keys of object in array form
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser)); // make different array of all keys and values
+// console.log(Object.keys(tinderUser)); // access all value keys of object in array form
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser)); // make different array of all keys and values
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn')); // search property in object
+// console.log(tinderUser.hasOwnProperty('isLoggedIn')); // search property in object
+
+
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "Arjun"
+}
+
+// course.courseInstructor
+
+const {courseInstructor: instructor} = course // destructuring
+
+console.log(instructor);
+
+// API format
+
+
+// {
+//     "name": "arjun",
+//     "coursename": "js in hindi",
+//     "price": "free"
+// }
+
+[
+    {},
+    {},
+    {}
+]
